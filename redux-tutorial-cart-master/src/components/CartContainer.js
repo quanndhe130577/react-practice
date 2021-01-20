@@ -24,7 +24,7 @@ const CartContainer = ({ cart = [], total, dispatch }) => {
       {/* cart items */}
       <article>
         {cart.map(item => {
-          return <CartItem dispatch={dispatch} key={item.id} {...item} />;
+          return <CartItem key={item.id} {...item} />;
         })}
       </article>
       {/* cart footer */}
