@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 // components
 import Navbar from "./components/Navbar";
 import CartContainer from "./components/CartContainer";
@@ -12,8 +12,8 @@ import { Provider } from 'react-redux'
 //initial store
 const initialStore = {
   cart : cartItems,
-  total: 105,
-  amount: 1
+  total: 0,
+  amount: 0
 
 }
 
